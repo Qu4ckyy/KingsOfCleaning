@@ -1,10 +1,15 @@
 import "./Garages.scss"
+import { useNavigate } from 'react-router-dom';
+
 
 const Garages = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="page">
             <nav>
-                <button>Powrót na stronę główną</button>
+                <button onClick={() => navigate('/')}>Powrót na stronę główną</button>
             </nav>
             <div>
                 <h2>Sprzątanie garaży i parkingów</h2>

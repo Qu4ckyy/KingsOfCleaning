@@ -1,14 +1,24 @@
 import "./MainPage.scss"
+import { useNavigate } from "react-router-dom";
 
 const MainPage = () => {
+    const navigate = useNavigate();
+
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
       <div className="main-page">
         <div className="nav-bar">
             <nav>
-                <button>O nas</button>
-                <button>Oferta</button>
-                <button>Referencje</button>
-                <button>Kontakt</button>
+                <button onClick={() => scrollToSection("AboutUs")} className="AboutUs">O nas</button>
+                <button onClick={() => scrollToSection("services")} className="Offer">Oferta</button>
+                <button onClick={() => scrollToSection("refrences")} className="References">Referencje</button>
+                <button onClick={() => scrollToSection("contact")} className="Contact">Kontakt</button>
             </nav>
         </div>
         <div className="logo">
@@ -24,45 +34,45 @@ const MainPage = () => {
             czystości. Powierz sprzątanie profesjonalistom i
             ciesz się czystością godną królów!</h1>
         </div>
-        <div className="services">
+        <div id="services" className="services">
             <h1>Nasze usługi:</h1>
             <div>
                 <img src="" alt="" />
                 <h4>Sprzątanie mieszkań i domów</h4>
-                <button>Sprawdź ofertę</button>
+                <button onClick={() => navigate('/houses')}>Sprawdź ofertę</button>
             </div>
             <div>
                 <img src="" alt="" />
                 <h4>Sprzątanie biur</h4>
-                <button>Sprawdź ofertę</button>
+                <button onClick={() => navigate('/offices')}>Sprawdź ofertę</button>
             </div>
             <div>
                 <img src="" alt="" />
                 <h4>Sprzątanie po remoncie</h4>
-                <button>Sprawdź ofertę</button>
+                <button onClick={() => navigate('/afterrenovation')}>Sprawdź ofertę</button>
             </div>
             <div>
                 <img src="" alt="" />
                 <h4>Mycie okien i witryn</h4>
-                <button>Sprawdź ofertę</button>
+                <button onClick={() => navigate('/windows')}>Sprawdź ofertę</button>
             </div>
             <div>
                 <img src="" alt="" />
                 <h4>Sprzątanie garaży i parkingów</h4>
-                <button>Sprawdź ofertę</button>
+                <button onClick={() => navigate('/garages')}>Sprawdź ofertę</button>
             </div>
             <div>
                 <img src="" alt="" />
                 <h4>Sprzątanie terenów zewnętrznych</h4>
-                <button>Sprawdź ofertę</button>
+                <button onClick={() => navigate('/outside')}>Sprawdź ofertę</button>
             </div>
             <div>
                 <img src="" alt="" />
                 <h4>Pranie mebli</h4>
-                <button>Sprawdź ofertę</button>
+                <button onClick={() => navigate('/furniture')}>Sprawdź ofertę</button>
             </div>
         </div>
-        <div className="AboutUs">
+        <div id="AboutUs" className="AboutUs">
             <img src="" alt="" />
             <h2>Co musisz o nas wiedzieć?</h2>
             <div>
@@ -75,7 +85,7 @@ const MainPage = () => {
             </div>
         </div>
         
-        <div className="refrences">
+        <div id="refrences" className="refrences">
             <div>
                 <h2>cytat</h2>
                 <h2>osoba</h2>
@@ -89,7 +99,7 @@ const MainPage = () => {
                 <h2>osoba</h2>
             </div>
         </div>
-        <div className="contact">
+        <div id="contact" className="contact">
             <h1>Kontakt</h1>
             <h1>nazwa firmy</h1>
             <div>

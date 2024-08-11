@@ -1,10 +1,15 @@
 import "./Furniture.scss"
+import { useNavigate } from 'react-router-dom';
+
 
 const Furniture = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="page">
             <nav>
-                <button>Powrót na główną</button>
+                <button onClick={() => navigate('/')}>Powrót na główną</button>
             </nav>
             <div>
                 <h2>Pranie mebli</h2>

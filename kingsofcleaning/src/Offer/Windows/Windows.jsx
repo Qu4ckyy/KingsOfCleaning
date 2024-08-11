@@ -1,10 +1,15 @@
 import "./Windows.scss"
+import { useNavigate } from 'react-router-dom';
+
 
 const Windows = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="page">
             <nav>
-                <button>Powrót na stronę główną</button>
+                <button onClick={() => navigate('/')}>Powrót na stronę główną</button>
             </nav>
             <div>
                 <h2>Mycie okien i witryn</h2>

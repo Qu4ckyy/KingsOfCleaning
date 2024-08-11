@@ -1,10 +1,15 @@
 import "./AfterRenovation.scss"
+import { useNavigate } from 'react-router-dom';
+
 
 const AfterRenovation = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="page">
             <nav>
-                <button>Powrót na stronę główną</button>
+                <button onClick={() => navigate('/')}>Powrót na stronę główną</button>
             </nav>
             <div>
                 <h2>Sprzątanie po remoncie</h2>
