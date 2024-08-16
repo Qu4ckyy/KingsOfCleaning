@@ -1,0 +1,74 @@
+* {
+font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #5F1606;
+  color: #B5A508;
+}
+
+.main-page {
+    .nav-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        nav {
+            display: flex;
+            button {
+                display: flex;
+                justify-content: center;
+               align-items: center;
+               border: none;
+               margin-right: 40px;
+               margin-top: 60px;
+               width: 200px;
+               height: 40px;
+               font-size: 20px;
+               transition: background-color 0.3s ease;
+               &:hover {
+                background-color: #B5A508;
+                color: white;
+            }
+            }
+        }
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        h1 {
+          height: 200px;
+          width: 900px;
+          margin-left: 50px;
+          font-size: 30px;  
+        }
+    }
+    .services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            display: flex;
+            justify-content: center;
+            
+        }
+        button {
+            display: flex;
+                justify-content: center;
+               align-items: center;
+               border: none;
+               margin-right: 40px;
+               margin-top: 60px;
+               width: 200px;
+               height: 40px;
+               font-size: 20px;
+               transition: background-color 0.3s ease;
+               &:hover {
+                background-color: #B5A508;
+                color: white;
+               }
+        }
+    }
+
+}

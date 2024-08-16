@@ -22,7 +22,7 @@ const MainPage = () => {
             </nav>
         </div>
         <div className="logo">
-            <img src="" alt="KingsOfCleanLogo" />
+            <img src="photo_5323746555238407518_y-removebg-preview.png" alt="KingsOfCleanLogo" />
             <h1>Nasza firma sprzątająca Kings of Clean oferuje
             szeroką gamę profesjonalnych usług sprzątania
             Twojego domu i biura. Gwarantujemy wysoką
@@ -34,8 +34,8 @@ const MainPage = () => {
             czystości. Powierz sprzątanie profesjonalistom i
             ciesz się czystością godną królów!</h1>
         </div>
+        <h1>Nasze usługi:</h1>
         <div id="services" className="services">
-            <h1>Nasze usługi:</h1>
             <div>
                 <img src="" alt="" />
                 <h4>Sprzątanie mieszkań i domów</h4>
@@ -56,6 +56,8 @@ const MainPage = () => {
                 <h4>Mycie okien i witryn</h4>
                 <button onClick={() => navigate('/windows')}>Sprawdź ofertę</button>
             </div>
+            </div>
+            <div className="services2">
             <div>
                 <img src="" alt="" />
                 <h4>Sprzątanie garaży i parkingów</h4>
