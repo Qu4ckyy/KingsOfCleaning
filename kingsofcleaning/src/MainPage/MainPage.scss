@@ -80,6 +80,10 @@ font-family: "Crimson Text", serif;
         }
        
     }
+    h1 {
+        margin-left: 840px;
+        margin-bottom: 60px;
+    }
 
     .services2 {
         display: flex;
@@ -117,6 +121,49 @@ font-family: "Crimson Text", serif;
                }
         }
             
+        }
+    }
+
+    .AboutUs {
+        .Yuliia {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 40px;
+            
+            img {
+                width: 400px;
+                height: 500px;
+                margin-right: 50px;
+            }
+        .Vasiliy {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 40px;
+                
+            img {
+                width: 400px;
+                height: 500px;
+                margin-right: 50px;
+                }
+            }
+        
+            .text-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h2 {
+                    margin: 0 0 10px 0;
+                }
+
+                h3 {
+                    margin: 0;
+                }
+            }
         }
     }
 

@@ -75,17 +75,23 @@ const MainPage = () => {
             </div>
         </div>
         <div id="AboutUs" className="AboutUs">
-            <img src="" alt="" />
-            <h2>Co musisz o nas wiedzieć?</h2>
-            <div>
+            <h2>O nas</h2>
+            <div className="Yuliia">
                 <img src="IMG_20240804_113919.jpg" alt="" />
+            <div className="text-container">
+                <h2>Yuliia Balabanova</h2>
                 <h3>Misją naszej firmy jest utrzymanie Cię w czystości, abyś mógł skupić się na tym, co naprawdę ważne.</h3>
             </div>
-            <div>
-                <img src="photo_5879684588001937033_y.jpg" alt="" />
+        </div>
+        <div className="Vasiliy">
+            <img src="photo_5879684588001937033_y.jpg" alt="" />
+            <div className="text-container">
+                <h2>Vasiliy Fuklev</h2>
                 <h3>Korzystanie z usług firmy sprzątającej to inwestycja w Twoje zdrowie, czas i komfort.</h3>
+                </div>
             </div>
         </div>
+
         
         <div id="refrences" className="refrences">
             <div>
