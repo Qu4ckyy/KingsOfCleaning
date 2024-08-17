@@ -37,40 +37,40 @@ const MainPage = () => {
         <h1>Nasze usługi:</h1>
         <div id="services" className="services">
             <div>
-                <img src="" alt="" />
-                <h4>Sprzątanie mieszkań i domów</h4>
+                <img src="house.png" alt="" />
+                <h3>Sprzątanie mieszkań i domów</h3>
                 <button onClick={() => navigate('/houses')}>Sprawdź ofertę</button>
             </div>
             <div>
-                <img src="" alt="" />
-                <h4>Sprzątanie biur</h4>
+                <img src="office.png" alt="" />
+                <h3>Sprzątanie biur</h3>
                 <button onClick={() => navigate('/offices')}>Sprawdź ofertę</button>
             </div>
             <div>
-                <img src="" alt="" />
-                <h4>Sprzątanie po remoncie</h4>
+                <img src="paint-roller.png" alt="" />
+                <h3>Sprzątanie po remoncie</h3>
                 <button onClick={() => navigate('/afterrenovation')}>Sprawdź ofertę</button>
             </div>
             <div>
-                <img src="" alt="" />
-                <h4>Mycie okien i witryn</h4>
+                <img src="window-cleaning.png" alt="" />
+                <h3>Mycie okien i witryn</h3>
                 <button onClick={() => navigate('/windows')}>Sprawdź ofertę</button>
             </div>
             </div>
             <div className="services2">
             <div>
-                <img src="" alt="" />
-                <h4>Sprzątanie garaży i parkingów</h4>
+                <img src="garage-car.png" alt="" />
+                <h3>Sprzątanie garaży i parkingów</h3>
                 <button onClick={() => navigate('/garages')}>Sprawdź ofertę</button>
             </div>
             <div>
-                <img src="" alt="" />
-                <h4>Sprzątanie terenów zewnętrznych</h4>
+                <img src="fence.png" alt="" />
+                <h3>Sprzątanie terenów zewnętrznych</h3>
                 <button onClick={() => navigate('/outside')}>Sprawdź ofertę</button>
             </div>
             <div>
-                <img src="" alt="" />
-                <h4>Pranie mebli</h4>
+                <img src="sofa.png" alt="" />
+                <h3>Pranie mebli</h3>
                 <button onClick={() => navigate('/furniture')}>Sprawdź ofertę</button>
             </div>
         </div>
