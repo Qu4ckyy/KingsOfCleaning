@@ -17,7 +17,6 @@ const MainPage = () => {
             <nav>
                 <button onClick={() => scrollToSection("AboutUs")} className="AboutUs">O nas</button>
                 <button onClick={() => scrollToSection("services")} className="Offer">Oferta</button>
-                <button onClick={() => scrollToSection("refrences")} className="References">Referencje</button>
                 <button onClick={() => scrollToSection("contact")} className="Contact">Kontakt</button>
             </nav>
         </div>
@@ -34,7 +33,7 @@ const MainPage = () => {
             czystości. Powierz sprzątanie profesjonalistom i
             ciesz się czystością godną królów!</h1>
         </div>
-        <h1>Nasze usługi:</h1>
+        <h1>Nasze usługi</h1>
         <div id="services" className="services">
             <div>
                 <img src="house.png" alt="" />
@@ -75,7 +74,7 @@ const MainPage = () => {
             </div>
         </div>
         <div id="AboutUs" className="AboutUs">
-            <h2>O nas</h2>
+            <h1>O nas</h1>
             <div className="Yuliia">
                 <img src="IMG_20240804_113919.jpg" alt="" />
             <div className="text-container">
@@ -93,23 +92,9 @@ const MainPage = () => {
         </div>
 
         
-        <div id="refrences" className="refrences">
-            <div>
-                <h2>cytat</h2>
-                <h2>osoba</h2>
-            </div>
-            <div>
-                <h2>cytat</h2>
-                <h2>osoba</h2>
-            </div>
-            <div>
-                <h2>cytat</h2>
-                <h2>osoba</h2>
-            </div>
-        </div>
+        
         <div id="contact" className="contact">
             <h1>Kontakt</h1>
-            <h1>nazwa firmy</h1>
             <div>
                 <img src="" alt="" />
                 <h2>ulica</h2>
