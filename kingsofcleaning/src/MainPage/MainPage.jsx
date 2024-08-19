@@ -83,7 +83,7 @@ const MainPage = () => {
             </div>
         </div>
         <div className="Vasiliy">
-            <img src="photo_5879684588001937033_y.jpg" alt="" />
+            <img src="unnamed.jpg" alt="" />
             <div className="text-container">
                 <h2>Vasiliy Fuklev</h2>
                 <h3>Korzystanie z usług firmy sprzątającej to inwestycja w Twoje zdrowie, czas i komfort.</h3>

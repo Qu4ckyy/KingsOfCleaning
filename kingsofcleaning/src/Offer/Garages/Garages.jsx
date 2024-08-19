@@ -30,7 +30,7 @@ const Garages = () => {
                 - Efektywność: Szybkie i efektywne sprzątanie, które przywraca garażom i parkingom estetyczny wygląd i funkcjonalność.
 
                 Aby uzyskać więcej informacji i oszacować koszty usług, prosimy o bezpośredni kontakt mailowy lub telefoniczny. Wycena darmowa!</h4>
-                <h3>Cena: od 1,5 zł/</h3>
+                <h3>Cena: od 1,5 zł/m2</h3>
             </div>
         </div>
     )

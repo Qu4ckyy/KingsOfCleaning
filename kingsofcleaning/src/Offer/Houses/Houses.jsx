@@ -25,8 +25,8 @@ const Houses = () => {
                 - Odkurzanie i mycie podłóg
                 - Wyjmowanie śmieci</h4>
                 <h3>Cena:
-                Sprzątanie mieszkania - 8 zł/ (od 220 zł)
-                Sprzątanie domów - 10 zł/</h3>
+                Sprzątanie mieszkania - 8 zł/m2 (od 220 zł)
+                Sprzątanie domów - 10 zł/m2</h3>
                 <h4>Co możesz zamówić dodatkowo:
                 - Mycie piekarnika - 65 zł
                 - Mycie okapu - 60 zł

@@ -5,12 +5,15 @@
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-    background-color: #5F1606;
+    background-color: #520325;
     color: #B5A508;
     text-align: center;
+    max-width: 800px; 
+    margin: 0 auto; 
 
     nav {
         width: 100%;
+        max-width: 600px;
         display: flex;
         justify-content: flex-start;
         margin-bottom: 20px;
@@ -19,7 +22,7 @@
             border: none;
             padding: 10px 20px;
             font-size: 18px;
-            background-color: #5F1606;
+            background-color: #520325;
             color: #B5A508;
             cursor: pointer;
             transition: background-color 0.3s ease, color 0.3s ease;
@@ -34,6 +37,7 @@
     h2 {
         font-size: 36px;
         margin-bottom: 20px;
+        word-wrap: break-word;
     }
 
     img {
@@ -47,15 +51,18 @@
         font-size: 18px;
         margin-bottom: 20px;
         line-height: 1.5;
+        word-wrap: break-word;
     }
 
     h3 {
         font-size: 20px;
         margin-top: 20px;
         margin-bottom: 40px;
+        word-wrap: break-word;
     }
 
     @media (max-width: 768px) {
+        max-width: 100%;
         h2 {
             font-size: 28px;
         }

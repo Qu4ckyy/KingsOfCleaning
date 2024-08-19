@@ -44,8 +44,8 @@ const Furniture = () => {
                 <h3>Cena:
                     Pranie fotela – od 60 zł
                     Pranie taboretów – od 25 zł
-                    Pranie dywanów – od 15 zł/
-                    Pranie wykładziny – od 12 zł/
+                    Pranie dywanów – od 15 zł/m2
+                    Pranie wykładziny – od 12 zł/m2
                     Pranie jednoosobowego materaca – od 200 zł
                     Pranie dwuosobowego materaca – od 250 zł
                     Pranie kanapy – od 200 zł

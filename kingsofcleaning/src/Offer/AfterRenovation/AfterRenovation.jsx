@@ -40,9 +40,9 @@ const AfterRenovation = () => {
                 - Indywidualne podejście: Dopasowanie zakresu usług do specyficznych potrzeb klienta.
                 - Efektywność: Szybkie i efektywne przywrócenie czystości w mieszkaniu, domu lub biurze.</h4>
                 <h3>Cena:
-                Mieszkania – 10 zł/
-                Dom – 15 zł/
-                Biuro – 15 zł/
+                Mieszkania – 10 zł/m2
+                Dom – 15 zł/m2
+                Biuro – 15 zł/m2
                 Okna - od 55 zl
                 Aby uzyskać więcej informacji i oszacować
                 koszty usług, prosimy o bezpośredni kontakt
