@@ -138,6 +138,7 @@ const MainPage = () => {
         <div>
           <img src="" alt="" />
           <h2>REGON: 529812205</h2>
+          <h1>aaaaaa</h1>
         </div>
       </div>
     </div>
@@ -145,3 +146,4 @@ const MainPage = () => {
 };
 
 export default MainPage;
+
