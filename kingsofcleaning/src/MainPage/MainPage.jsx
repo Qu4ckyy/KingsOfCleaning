@@ -104,7 +104,7 @@ const MainPage = () => {
         <div className="Vasiliy">
           <img src="unnamed.jpg" alt="" />
           <div className="text-container">
-            <h2>Vasiliy Fuklev</h2>
+            <h2>Vasyl Fuklev</h2>
             <h3>
               Korzystanie z usług firmy sprzątającej to inwestycja w Twoje
               zdrowie, czas i komfort.
@@ -121,6 +121,10 @@ const MainPage = () => {
         </div>
         <div>
           <img src="" alt="" />
+          <h2>E-mail: kingsofclean.pl@gmail.com</h2>
+        </div>
+        <div>
+          <img src="" alt="" />
           <h2>Instagram: _kings_of_clean_</h2>
         </div>
         <div>
@@ -133,10 +137,6 @@ const MainPage = () => {
         </div>
         <div>
           <img src="" alt="" />
-          <h2>E-mail: kingsofclean@gmail.com</h2>
-        </div>
-        <div>
-          <img src="" alt="" />
           <h2>REGON: 529812205</h2>
         </div>
       </div>
@@ -145,4 +145,3 @@ const MainPage = () => {
 };
 
 export default MainPage;
-
