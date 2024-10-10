@@ -38,7 +38,10 @@ const Furniture = () => {
         </h4>
 
         <h3>
-          Cena: Pranie fotela – od 60 zł <br />
+          Cena:
+          <br />
+          Pranie fotela – od 60 zł
+          <br />
           Pranie taboretów – od 25 zł
           <br />
           Pranie dywanów – od 15 zł/m2
