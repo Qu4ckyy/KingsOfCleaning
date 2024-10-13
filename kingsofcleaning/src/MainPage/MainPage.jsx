@@ -115,29 +115,35 @@ const MainPage = () => {
 
       <div id="contact" className="contact">
         <h1>Kontakt</h1>
-        <div>
-          <img src="" alt="" />
-          <h2>Telefon: +48 790 649 582</h2>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h2>E-mail: kingsofclean.pl@gmail.com</h2>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h2>Instagram: _kings_of_clean_</h2>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h2>TikTok: kings_of_clean</h2>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h2>NIP: 5214087917</h2>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h2>REGON: 529812205</h2>
+        <div className="data">
+          <div className="data1">
+            <div>
+              <img src="" alt="" />
+              <h2>Telefon: +48 790 649 582</h2>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <h2>E-mail: kingsofclean.pl@gmail.com</h2>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <h2>Instagram: _kings_of_clean_</h2>
+            </div>
+          </div>
+          <div className="data2">
+            <div>
+              <img src="" alt="" />
+              <h2>TikTok: kings_of_clean</h2>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <h2>NIP: 5214087917</h2>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <h2>REGON: 529812205</h2>
+            </div>
+          </div>
         </div>
       </div>
     </div>
