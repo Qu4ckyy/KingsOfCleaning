@@ -194,75 +194,77 @@
       }
     }
   }
-  @media (max-width: 768px) {
-    .main-page {
-      .nav-bar nav {
-        flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .main-page {
+    .nav-bar nav {
+      flex-direction: column;
+      button {
+        width: 150px;
+        font-size: 18px;
+        margin: 10px 0;
+      }
+    }
+
+    .logo {
+      flex-direction: column;
+      img {
+        width: 100%;
+        max-width: 300px;
+      }
+      h1 {
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0;
+      }
+    }
+
+    .services,
+    .services2 {
+      flex-wrap: wrap;
+      div {
+        img {
+          height: 80px;
+          width: 80px;
+        }
         button {
           width: 150px;
-          font-size: 18px;
-          margin: 10px 0;
+          height: 40px;
+          font-size: 16px;
+          margin-top: 10px;
         }
       }
+    }
 
-      .logo {
+    .AboutUs {
+      h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      .Yuliia,
+      .Vasiliy {
         flex-direction: column;
         img {
           width: 100%;
           max-width: 300px;
-        }
-        h1 {
-          width: 90%;
-          font-size: 18px;
-          text-align: center;
-          margin-top: 20px;
-          margin-left: 0;
-        }
-      }
-
-      .services,
-      .services2 {
-        flex-wrap: wrap;
-        div {
-          img {
-            height: 80px;
-            width: 80px;
-          }
-          button {
-            width: 150px;
-            height: 40px;
-            font-size: 16px;
-            margin-top: 10px;
-          }
-        }
-      }
-
-      .AboutUs {
-        h1 {
-          font-size: 24px;
-          text-align: center;
+          height: auto;
           margin-right: 0;
           margin-bottom: 20px;
+          margin-left: 20px;
         }
-
-        .Yuliia,
-        .Vasiliy {
-          flex-direction: column;
-          img {
-            width: 100%;
-            max-width: 300px;
-            height: auto;
-            margin-right: 0;
-            margin-bottom: 20px;
+        .text-container {
+          text-align: center;
+          h2 {
+            font-size: 18px;
           }
-          .text-container {
-            text-align: center;
-            h2 {
-              font-size: 18px;
-            }
-            h3 {
-              font-size: 16px;
-            }
+          h3 {
+            font-size: 16px;
           }
         }
       }
