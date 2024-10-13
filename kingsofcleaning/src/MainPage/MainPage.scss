@@ -247,7 +247,6 @@
         margin-bottom: 20px;
       }
 
-      .Yuliia,
       .Vasiliy {
         flex-direction: column;
         img {
@@ -256,7 +255,27 @@
           height: auto;
           margin-right: 0;
           margin-bottom: 20px;
-          margin-left: 20px;
+          margin-left: 40px;
+        }
+        .text-container {
+          text-align: center;
+          h2 {
+            font-size: 18px;
+          }
+          h3 {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .Yuliia {
+        flex-direction: column;
+        img {
+          width: 100%;
+          max-width: 300px;
+          height: auto;
+          margin-right: 0;
+          margin-bottom: 20px;
         }
         .text-container {
           text-align: center;
