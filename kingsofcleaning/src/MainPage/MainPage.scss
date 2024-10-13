@@ -13,17 +13,18 @@
     align-items: center;
     nav {
       display: flex;
+      flex-wrap: wrap; // Dodanie wrapowania przy mniejszych ekranach
       button {
         display: flex;
         justify-content: center;
         align-items: center;
         border: none;
-        margin-right: 40px;
-        margin-top: 60px;
-        width: 200px;
+        margin: 20px; // Zmieniam margines dla lepszej elastyczności
+        width: 180px; // Zmieniam szerokość
         height: 40px;
-        font-size: 20px;
+        font-size: 18px;
         transition: background-color 0.3s ease;
+
         &:hover {
           background-color: #b5a508;
           color: white;
@@ -36,236 +37,106 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    flex-direction: column; // Zmieniam układ na kolumnowy dla lepszego dopasowania
+
     img {
       max-width: 100%;
       height: auto;
     }
+
     h1 {
-      height: 200px;
-      width: 900px;
-      margin-left: 50px;
-      font-size: 30px;
+      height: auto; // Usuwam stałą wysokość
+      width: 90%; // Szerokość dynamiczna
+      margin: 20px auto;
+      font-size: 2rem; // Zmieniam na rem
+      text-align: center; // Wyśrodkowuję tekst dla lepszego wyglądu na małych ekranach
     }
   }
 
-  .services {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    div {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      margin-right: 20px;
-
-      img {
-        height: 120px;
-        width: 120px;
-      }
-
-      button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: none;
-        margin-right: 40px;
-        margin-top: 20px;
-        width: 200px;
-        height: 40px;
-        font-size: 20px;
-        transition: background-color 0.3s ease;
-        &:hover {
-          background-color: #b5a508;
-          color: white;
-        }
-      }
-    }
-  }
-
-  h1 {
-    margin-left: 850px;
-    margin-bottom: 50px;
-  }
-
+  .services,
   .services2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    flex-wrap: wrap; // Dodanie wrapowania dla responsywności
 
     div {
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center;
-      margin-right: 20px;
+      margin: 10px; // Zmieniam margines dla lepszej elastyczności
 
       img {
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
       }
 
       button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: none;
-        margin-right: 40px;
-        margin-top: 20px;
-        width: 200px;
-        height: 40px;
-        font-size: 20px;
-        transition: background-color 0.3s ease;
-        &:hover {
-          background-color: #b5a508;
-          color: white;
-        }
+        width: 180px; // Mniejsza szerokość
+        font-size: 18px;
       }
     }
   }
 
   .AboutUs {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-top: 40px;
 
     h1 {
-      margin-right: 900px;
+      text-align: center; // Wyśrodkowuję tekst dla lepszej responsywności
+      margin: 20px 0;
     }
 
-    .Yuliia {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-      margin-bottom: 40px;
-
-      img {
-        width: 400px;
-        height: 500px;
-        margin-right: 50px;
-      }
-
-      .text-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        h2 {
-          margin: 0 0 10px 0;
-        }
-
-        h3 {
-          margin: 0;
-        }
-      }
-    }
-
+    .Yuliia,
     .Vasiliy {
-      display: flex;
-      justify-content: center;
+      flex-direction: column; // Zmieniam układ na kolumnowy na małych ekranach
       align-items: center;
-      flex-direction: row;
-      margin-right: 120px;
 
       img {
-        width: 400px;
-        height: 500px;
-        margin-right: 50px;
+        width: 100%; // Obraz dostosowuje się do szerokości ekranu
+        max-width: 300px; // Maksymalna szerokość na telefonach
+        margin-right: 0; // Usuwam margines, by obraz był wycentrowany
+        margin-bottom: 20px;
       }
 
       .text-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        h2 {
-          margin: 0 0 10px 0;
-        }
-
+        h2,
         h3 {
-          margin: 0;
+          text-align: center; // Tekst wyśrodkowany na mniejszych ekranach
         }
       }
     }
   }
-}
 
-@media (max-width: 768px) {
-  .main-page {
-    .nav-bar nav {
-      flex-direction: column;
-      button {
-        width: 150px;
-        font-size: 18px;
-        margin: 10px 0;
-      }
-    }
-
-    .logo {
-      flex-direction: column;
-      img {
-        width: 100%;
-        max-width: 300px;
-      }
-      h1 {
-        width: 90%;
-        font-size: 18px;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 0;
-      }
+  // Media Queries
+  @media (max-width: 768px) {
+    .logo h1 {
+      font-size: 1.5rem;
     }
 
     .services,
     .services2 {
-      flex-wrap: wrap;
       div {
+        margin: 20px 0; // Większe marginesy między elementami
         img {
-          height: 80px;
           width: 80px;
-        }
-        button {
-          width: 150px;
-          height: 40px;
-          font-size: 16px;
-          margin-top: 10px;
+          height: 80px;
         }
       }
     }
 
-    .AboutUs {
-      h1 {
-        font-size: 24px;
-        text-align: center;
-        margin-right: 0;
-        margin-bottom: 20px;
-      }
+    .nav-bar nav button {
+      width: 150px; // Mniejsza szerokość przycisków na mniejszych ekranach
+      font-size: 16px;
+    }
 
-      .Yuliia,
-      .Vasiliy {
-        flex-direction: column;
-        img {
-          width: 100%;
-          max-width: 300px;
-          height: auto;
-          margin-right: 0;
-          margin-bottom: 20px;
-        }
-        .text-container {
-          text-align: center;
-          h2 {
-            font-size: 18px;
-          }
-          h3 {
-            font-size: 16px;
-          }
-        }
+    .AboutUs .Yuliia,
+    .AboutUs .Vasiliy {
+      img {
+        max-width: 250px; // Mniejszy obraz na węższych ekranach
       }
     }
   }
