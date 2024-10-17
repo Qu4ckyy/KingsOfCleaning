@@ -1,7 +1,36 @@
 import "./MainPage.scss";
 import { useNavigate } from "react-router-dom";
+import { sendEmail } from "../utils/emailService";
 
 const MainPage = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    sendEmail(form).then((success) => {
+      if (success) {
+        alert("Wiadomość została wysłana!");
+      } else {
+        alert("Błąd podczas wysyłania wiadomości.");
+      }
+    });
+  };
+
   const navigate = useNavigate();
 
   const scrollToSection = (id) => {
@@ -146,6 +175,44 @@ const MainPage = () => {
           </div>
         </div>
       </div>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="name"
+          placeholder="Imię"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+        <br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Adres e-mail"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+        <br />
+        <input
+          type="text"
+          name="subject"
+          placeholder="Temat wiadomości"
+          value={formData.subject}
+          onChange={handleChange}
+          required
+        />
+        <br />
+        <textarea
+          name="message"
+          placeholder="Treść wiadomości..."
+          value={formData.message}
+          onChange={handleChange}
+          required
+        ></textarea>
+        <br />
+        <button type="submit">Wyślij</button>
+      </form>
     </div>
   );
 };
