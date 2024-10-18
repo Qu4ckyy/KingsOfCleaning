@@ -1,6 +1,7 @@
 import "./MainPage.scss";
 import { useNavigate } from "react-router-dom";
 import { sendEmail } from "../utils/emailService";
+import { useState } from "react";
 
 const MainPage = () => {
   const [formData, setFormData] = useState({
