@@ -1,9 +1,9 @@
 import emailjs from "emailjs-com";
 
 export const sendEmail = (form) => {
-  emailjs.init("TWOJE_USER_ID"); // Podaj swój user_id z EmailJS
+  emailjs.init("380bE2oKxn_6aI5B9"); // Podaj swój user_id z EmailJS
 
-  return emailjs.sendForm("service_z267ep9", "TWOJE_TEMPLATE_ID", form).then(
+  return emailjs.sendForm("service_z267ep9", "template_4bhfdgo", form).then(
     (result) => {
       console.log("Wiadomość została wysłana!", result.text);
       return true;
