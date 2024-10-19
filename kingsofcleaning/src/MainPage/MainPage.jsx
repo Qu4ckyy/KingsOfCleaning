@@ -175,45 +175,45 @@ const MainPage = () => {
             </div>
           </div>
         </div>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Imię"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+          <br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Adres e-mail"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+          <br />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Temat wiadomości"
+            value={formData.subject}
+            onChange={handleChange}
+            required
+          />
+          <br />
+          <textarea
+            name="message"
+            placeholder="Treść wiadomości..."
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
+          <br />
+          <button type="submit">Wyślij</button>
+        </form>
       </div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Imię"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <br />
-        <input
-          type="email"
-          name="email"
-          placeholder="Adres e-mail"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <br />
-        <input
-          type="text"
-          name="subject"
-          placeholder="Temat wiadomości"
-          value={formData.subject}
-          onChange={handleChange}
-          required
-        />
-        <br />
-        <textarea
-          name="message"
-          placeholder="Treść wiadomości..."
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <br />
-        <button type="submit">Wyślij</button>
-      </form>
     </div>
   );
 };
