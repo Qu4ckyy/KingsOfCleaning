@@ -26,7 +26,7 @@ const Houses = () => {
         <h3>
           Cena: Sprzątanie mieszkania - 6 zł/m2 (od 220 zł)
           <br />
-          Sprzątanie domów - 10 zł/m2
+          Sprzątanie domów - od 5 zł/m2
         </h3>
         <br />
         <h4>
