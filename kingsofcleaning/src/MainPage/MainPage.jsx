@@ -134,7 +134,7 @@ const MainPage = () => {
         <div className="Vasiliy">
           <img src="unnamed.jpg" alt="" />
           <div className="text-container">
-            <h2>Vasyl Fuklev</h2>
+            <h2>Vasyl Fukliev</h2>
             <h3>
               Korzystanie z usług firmy sprzątającej to inwestycja w Twoje
               zdrowie, czas i komfort.
