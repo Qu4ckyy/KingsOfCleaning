@@ -137,7 +137,7 @@ const MainPage = () => {
             <h2>Vasyl Fukliev</h2>
             <h3>
               Korzystanie z usług firmy sprzątającej to inwestycja w Twoje
-              zdrowie, czas i komfort.
+              zdrowie, czas i komfort. ///
             </h3>
           </div>
         </div>
