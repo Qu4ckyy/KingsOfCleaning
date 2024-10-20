@@ -30,9 +30,9 @@ const Houses = () => {
         </h3>
         <br />
         <h4>
-          Co możesz zamówić dodatkowo: - Mycie piekarnika - 65 zł
+          Co możesz zamówić dodatkowo: - Mycie piekarnika - 70 zł
           <br />
-          - Mycie okapu - 60 zł
+          - Mycie okapu - od 20 zł
           <br />
           - Sprzątanie wnętrza szafek kuchennych - 70 zł
           <br />
@@ -46,9 +46,9 @@ const Houses = () => {
           <br />
           - Prasowanie - 70 zł/g
           <br />
-          - Porządek i czyszczenie wnętrza szafy - 65 zł/g
+          - Porządek i czyszczenie wnętrza szafy - 60 zł/g
           <br />
-          - Przenoszenie mebli - 85 zł
+          - Przenoszenie mebli - 70 zł
           <br />
           - Mycie zmywarki - 45 zł
           <br />
@@ -58,11 +58,11 @@ const Houses = () => {
           <br />
           - Usuwanie pleśni - od 100 zł
           <br />
-          - Mycie rolet - od 50 zł
+          - Mycie rolet - od 40 zł
           <br />
           - Pranie zasłon - od 150 zł
           <br />
-          - Czyszczenie fug - 15 zł/
+          - Czyszczenie fug - 15 zł/m2
           <br />
         </h4>
       </div>
