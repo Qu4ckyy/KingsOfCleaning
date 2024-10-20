@@ -32,9 +32,9 @@ const Offices = () => {
         <h3>
           Cena:
           <br />
-          Jednorazowe kompleksowe sprzątanie – od 6 zł/
+          Jednorazowe kompleksowe sprzątanie – od 3 zł/m2
           <br />
-          Jednorazowe sprzątanie generalne – od 19 zł/
+          Jednorazowe sprzątanie generalne – od 14 zł/m2
           <br />
           Aby uzyskać więcej informacji, prosimy o bezpośredni kontakt mailowy
           lub telefoniczny. Wycena darmowa!
