@@ -137,7 +137,7 @@ const MainPage = () => {
             <h2>Vasyl Fukliev</h2>
             <h3>
               Korzystanie z usług firmy sprzątającej to inwestycja w Twoje
-              zdrowie, czas i komfort. 
+              zdrowie, czas i komfort.
             </h3>
           </div>
         </div>
@@ -149,7 +149,7 @@ const MainPage = () => {
           <div className="data1">
             <div>
               <img src="" alt="" />
-              <h2>Telefon: +48 790 649 582 ////</h2>
+              <h2>Telefon: +48 790 649 582 </h2>
             </div>
             <div>
               <img src="" alt="" />
