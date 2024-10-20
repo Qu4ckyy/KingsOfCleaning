@@ -149,7 +149,7 @@ const MainPage = () => {
           <div className="data1">
             <div>
               <img src="" alt="" />
-              <h2>Telefon: +48 790 649 582 //</h2>
+              <h2>Telefon: +48 790 649 582 ////</h2>
             </div>
             <div>
               <img src="" alt="" />
