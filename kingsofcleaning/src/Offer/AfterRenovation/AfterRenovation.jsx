@@ -38,13 +38,13 @@ const AfterRenovation = () => {
         <h3>
           Cena:
           <br />
-          Mieszkania – 10 zł/m2
+          Mieszkania – 8 zł/m2
           <br />
-          Dom – 15 zł/m2
+          Dom – 10 zł/m2
           <br />
-          Biuro – 15 zł/m2
+          Biuro – 13 zł/m2
           <br />
-          Okna - od 55 zl
+          Okna - od 45 zl
           <br />
           Aby uzyskać więcej informacji i oszacować koszty usług, prosimy o
           bezpośredni kontakt mailowy lub telefoniczny. Wycena darmowa!
