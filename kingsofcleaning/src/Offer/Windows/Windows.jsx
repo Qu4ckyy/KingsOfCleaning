@@ -33,9 +33,9 @@ const Windows = () => {
           potrzeb klienta.
         </h4>
         <h3>
-          Cena: Mycie okien - od 40 zł
+          Cena: Mycie okien - od 35 zł
           <br />
-          Mycie okien po remoncie - od 55 zł
+          Mycie okien po remoncie - od 45 zł
           <br />
           Aby uzyskać więcej informacji i oszacować koszty usług, prosimy o
           bezpośredni kontakt mailowy lub telefoniczny. Wycena darmowa!
