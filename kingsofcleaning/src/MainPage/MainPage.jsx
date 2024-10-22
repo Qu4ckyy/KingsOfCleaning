@@ -6,7 +6,7 @@ import { useState } from "react";
 const MainPage = () => {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    from_name: "",
     subject: "",
     message: "",
   });
