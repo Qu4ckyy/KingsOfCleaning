@@ -3,7 +3,6 @@ import emailjs from "emailjs-com";
 var templateParams = {
   to_name: "Odbiorca",
   from_name: "Nadawca",
-  message: "Wiadomość testowa",
 };
 
 export const sendEmail = (form) => {
