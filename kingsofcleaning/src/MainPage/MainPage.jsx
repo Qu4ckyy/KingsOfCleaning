@@ -187,7 +187,7 @@ const MainPage = () => {
           <br />
           <input
             type="email"
-            name="email"
+            name="from_name"
             placeholder="Adres e-mail"
             value={formData.email}
             onChange={handleChange}
