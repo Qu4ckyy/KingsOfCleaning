@@ -307,12 +307,14 @@
         width: auto;
         margin-left: 0;
         font-size: 26px;
+        margin-bottom: 30px;
       }
     }
 
     .services,
     .services2 {
       flex-wrap: wrap;
+      margin-top: 15px;
       div {
         margin-bottom: 20px;
         img {
