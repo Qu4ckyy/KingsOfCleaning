@@ -77,7 +77,7 @@ const MainPage = () => {
           ciesz się czystością godną królów!
         </h1>
       </div>
-      <h1>Nasze usługi</h1>
+      <h1 className="offer">Nasze usługi</h1>
       <div id="services" className="services">
         <div>
           <img src="house.png" alt="" />
