@@ -279,6 +279,7 @@
 
 @media (max-width: 768px) {
   .main-page {
+    overflow-x: hidden;
     .nav-bar nav {
       flex-direction: column;
       button {
