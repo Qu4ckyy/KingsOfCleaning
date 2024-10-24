@@ -86,7 +86,9 @@
   }
 
   h1 {
-    margin-left: 850px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
     margin-bottom: 50px;
   }
 
@@ -135,7 +137,9 @@
     margin-top: 40px;
 
     h1 {
-      margin-right: 900px;
+      margin-right: 0;
+      text-align: center;
+      margin-bottom: 50px;
     }
 
     .Yuliia {
@@ -280,6 +284,10 @@
 @media (max-width: 768px) {
   .main-page {
     overflow-x: hidden;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
     .nav-bar nav {
       flex-direction: column;
       button {
@@ -296,12 +304,9 @@
         max-width: 300px;
       }
       h1 {
-        width: 90%;
-        font-size: 18px;
-        text-align: center;
-        margin-top: 10px;
+        width: auto;
         margin-left: 0;
-        margin-bottom: 10px;
+        font-size: 26px;
       }
     }
 
