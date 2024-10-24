@@ -37,6 +37,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 40px;
     img {
       max-width: 100%;
       height: auto;
@@ -53,6 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
 
     div {
       display: flex;
@@ -299,6 +301,7 @@
 
     .logo {
       flex-direction: column;
+      margin-bottom: 20px;
       img {
         width: 100%;
         max-width: 300px;
@@ -307,14 +310,13 @@
         width: auto;
         margin-left: 0;
         font-size: 26px;
-        margin-bottom: 30px;
       }
     }
 
     .services,
     .services2 {
       flex-wrap: wrap;
-      margin-top: 15px;
+      margin-top: 40px;
       div {
         margin-bottom: 20px;
         img {
