@@ -304,18 +304,33 @@
       }
     }
 
-    h1.offer {
-      font-size: 24px;
-      text-align: center;
-      margin-right: 0;
-      margin-bottom: 20px;
-      word-wrap: break-word;
-      width: 100%;
-      text-align: center;
-      overflow-x: hidden;
+    .services {
+      flex-wrap: wrap;
+      h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+        word-wrap: break-word;
+        width: 100%;
+        text-align: center;
+        overflow-x: hidden;
+      }
+      div {
+        margin-bottom: 20px;
+        img {
+          height: 80px;
+          width: 80px;
+        }
+        button {
+          width: 150px;
+          height: 40px;
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      }
     }
 
-    .services,
     .services2 {
       flex-wrap: wrap;
       div {
