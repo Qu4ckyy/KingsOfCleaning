@@ -304,7 +304,8 @@
       }
     }
 
-    .services {
+    .services,
+    .services2 {
       flex-wrap: wrap;
       h1 {
         font-size: 24px;
@@ -316,23 +317,6 @@
         text-align: center;
         overflow-x: hidden;
       }
-      div {
-        margin-bottom: 20px;
-        img {
-          height: 80px;
-          width: 80px;
-        }
-        button {
-          width: 150px;
-          height: 40px;
-          font-size: 16px;
-          margin-top: 10px;
-        }
-      }
-    }
-
-    .services2 {
-      flex-wrap: wrap;
       div {
         margin-bottom: 20px;
         img {
