@@ -142,8 +142,8 @@ const MainPage = () => {
           </div>
         </div>
       </div>
+      <h1>Kontakt</h1>
       <div id="contact" className="contact">
-        <h1>Kontakt</h1>
         <div className="data">
           <div className="data1">
             <div>
