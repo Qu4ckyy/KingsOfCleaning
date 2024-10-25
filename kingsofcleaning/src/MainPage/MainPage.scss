@@ -288,10 +288,12 @@
 @media (max-width: 768px) {
   .main-page {
     overflow-x: hidden;
+
     h1 {
       font-size: 24px;
       margin-bottom: 30px;
     }
+
     .nav-bar nav {
       flex-direction: column;
       button {
@@ -333,6 +335,14 @@
           margin-top: 10px;
           margin-bottom: 20px;
         }
+      }
+
+      div {
+        margin: 0 auto;
+      }
+
+      button {
+        margin: 10px auto;
       }
     }
 
@@ -389,6 +399,7 @@
         }
       }
     }
+
     .contact {
       padding: 20px;
       text-align: center;
@@ -423,6 +434,9 @@
         .data2 {
           width: 100%;
           margin-bottom: 20px;
+          justify-content: center;
+          margin: 0;
+          text-align: center;
           div {
             display: flex;
             flex-direction: column;
@@ -434,6 +448,10 @@
           }
         }
       }
+    }
+
+    .services {
+      margin-bottom: 20px;
     }
   }
 }
