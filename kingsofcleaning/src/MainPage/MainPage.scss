@@ -434,8 +434,9 @@
       .data {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        margin-left: 62px;
+        margin-left: 52px;
 
         .data1,
         .data2 {
