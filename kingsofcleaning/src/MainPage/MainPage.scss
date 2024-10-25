@@ -155,7 +155,7 @@
 
       img {
         width: 400px;
-        height: 500px;
+        height: auto;
         margin-left: 50px;
       }
 
@@ -182,7 +182,7 @@
       margin-bottom: 40px;
       img {
         width: 400px;
-        height: 500px;
+        height: auto;
         margin-right: 50px;
       }
 
@@ -324,6 +324,7 @@
       margin-top: 60px;
       div {
         margin-bottom: 20px;
+        text-align: center;
         img {
           height: 80px;
           width: 80px;
@@ -334,6 +335,8 @@
           font-size: 16px;
           margin-top: 10px;
           margin-bottom: 20px;
+          margin: 0 auto;
+          display: block;
         }
       }
 
