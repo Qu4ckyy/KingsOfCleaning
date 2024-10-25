@@ -208,13 +208,14 @@
     flex-wrap: wrap;
     padding: 20px;
     margin-top: 40px;
+    flex-direction: column;
 
     .data {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       width: 50%;
-      margin-right: auto;
+      margin-right: 20px;
 
       .data1,
       .data2 {
@@ -412,6 +413,7 @@
         width: 90%;
         padding: 15px;
         margin: 0 auto;
+        margin-top: 10px;
         input,
         textarea {
           font-size: 14px;
