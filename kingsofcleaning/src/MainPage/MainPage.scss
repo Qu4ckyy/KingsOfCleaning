@@ -288,6 +288,7 @@
 @media (max-width: 768px) {
   .main-page {
     overflow-x: hidden;
+    display: flex;
 
     h1 {
       font-size: 24px;
@@ -325,6 +326,7 @@
       margin-top: 60px;
       div {
         margin-bottom: 20px;
+        text-align: center;
         align-items: center;
         img {
           height: 80px;
