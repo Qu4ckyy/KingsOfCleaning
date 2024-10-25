@@ -75,7 +75,7 @@
         justify-content: center;
         align-items: center;
         border: none;
-        margin-right: 40px;
+        margin-right: auto;
         margin-top: 20px;
         width: 200px;
         height: 40px;
@@ -119,7 +119,7 @@
         justify-content: center;
         align-items: center;
         border: none;
-        margin-right: 40px;
+        margin-right: auto;
         margin-top: 20px;
         width: 200px;
         height: 40px;
@@ -288,7 +288,6 @@
 @media (max-width: 768px) {
   .main-page {
     overflow-x: hidden;
-    display: flex;
 
     h1 {
       font-size: 24px;
