@@ -38,7 +38,7 @@ const AfterRenovation = () => {
         <h3>
           Cena:
           <br />
-          Mieszkania – 8 zł/m2
+          Mieszkania – 10 zł/m2
           <br />
           Dom – 10 zł/m2
           <br />
