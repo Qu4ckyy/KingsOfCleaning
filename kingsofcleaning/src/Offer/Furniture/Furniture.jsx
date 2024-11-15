@@ -54,7 +54,7 @@ const Furniture = () => {
           <br />
           Pranie kanapy – od 200 zł
           <br />
-          Minimalne zamówienie pralni chemicznej od 250zł Aby uzyskać więcej
+          Minimalne zamówienie pralni chemicznej od 250 zł. Aby uzyskać więcej
           informacji prosimy o bezpośredni kontakt mailowy lub telefoniczny.
           Wycena darmowa!
         </h3>
