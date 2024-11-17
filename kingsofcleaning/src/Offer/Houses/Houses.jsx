@@ -17,16 +17,16 @@ const Houses = () => {
           Sprzątanie mieszkań i domów to szerokie pojęcie, które obejmuje
           różnorodne czynności mające na celu utrzymanie czystości i porządku w
           przestrzeniach mieszkalnych. Poniżej znajduje się lista podstawowych
-          zadań, które mogą być częścią takiego sprzątania: - Czyszczenie
-          pajęczyn - Czyszczenie na mokro powierzchni (żyrandole, parapety,
+          zadań, które mogą być częścią takiego sprzątania: czyszczenie
+          pajęczyn; czyszczenie na mokro powierzchni (żyrandole, parapety,
           drzwi, meble, włączniki, gniazdka, listwy przypodłogowe, zlewy,
-          toalety, wanny lub prysznice (usuwanie kamienia wodnego płatne osobno)
-          - Odkurzanie i mycie podłóg - Wyjmowanie śmieci
+          toalety, wanny lub prysznice (usuwanie kamienia wodnego płatne osobno));
+          odkurzanie i mycie podłóg; wyjmowanie śmieci
         </h4>
         <h3>
           Cena: Sprzątanie mieszkania - 6 zł/m2 (od 220 zł)
           <br />
-          Sprzątanie domów - od 5 zł/m2
+          Sprzątanie domu - od 5 zł/m2
         </h3>
         <br />
         <h4>
